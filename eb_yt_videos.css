@@ -1,0 +1,26 @@
+.main-title {
+	text-align: center
+}
+
+.yt-videos {
+	display: flex;
+	flex-wrap: wrap
+}
+
+a:hover {
+	text-decoration: none!important
+}
+
+.yt-video-card {
+	width: 25%;
+	text-align: center;
+	display: flex;
+	flex-flow: column;
+	margin: 20px;
+	border: 1px solid;
+	border-radius: 5px
+}
+
+.yt-video-card:hover {
+	background: lightgrey
+}
