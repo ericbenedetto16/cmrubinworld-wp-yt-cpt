@@ -55,8 +55,8 @@ if ( '' != get_the_post_thumbnail() ) :
 					?>
 				</div>
 			</div>
+			<?php get_sidebar(); ?>
 		</div>
-		<?php get_sidebar(); ?>
 	</div>
 	<?php get_template_part( 'includes/footer-banner', 'page' ); ?>
 </div>	
