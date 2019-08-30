@@ -1,4 +1,4 @@
-.main-title {
+.yt-page-title {
 	text-align: center
 }
 
@@ -21,6 +21,16 @@ a:hover {
 	border-radius: 5px
 }
 
+.yt-video-card img {
+	min-width: 100%
+}
+
 .yt-video-card:hover {
 	background: lightgrey
+}
+
+@media all and (max-width: 768px) {
+	.yt-video-card {
+		width: 100%;
+	}
 }
